@@ -1,3 +1,0 @@
-Visual basic codes to explore
-
-strContent = "SetToolBarFreeze(bFrozen=" & bFrozen & ")"
