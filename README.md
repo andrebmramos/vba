@@ -7,3 +7,5 @@ Learn Visual Basic Application
 - [ ] Color objects blue
 - [ ] Protection VBA codes
 - [ ] How to protect designs?
+- [ ] How to distribute via installer?
+- [ ] How to build COM add-ins?
