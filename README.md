@@ -6,6 +6,7 @@ Learn Visual Basic Application
 - [ ] Function to scrape data based on a target url
 - [ ] Color objects blue
 - [ ] Protection VBA codes
+- [ ] VBScript to activate Excel Add-ins
 - [ ] How to protect designs?
 - [ ] How to distribute via installer?
 - [ ] How to build COM add-ins?
