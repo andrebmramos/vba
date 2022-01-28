@@ -8,5 +8,5 @@ Learn Visual Basic Application
 
 <h3> To-Dos</h3>
 
-- [ ] Explore [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)<br>
-- [ ] Explore [Hyperlink](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank)
+- [ ] Try [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)<br>
+- [ ] Try [Hyperlink](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank)
