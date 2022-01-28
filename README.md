@@ -6,3 +6,4 @@ Learn Visual Basic Application
 - [ ] Function to scrape data based on a target url
 - [ ] Color objects blue
 - [ ] Protection VBA codes
+- [ ] How to protect designs?
