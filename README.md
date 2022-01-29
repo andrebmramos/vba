@@ -1,7 +1,8 @@
 # vba
-Learn Visual Basic Application
+Learn Visual Basic Application.
 
-See working codes [here](https://github.com/ry4nyeo/vba/wiki).
+* [Usage Guide](https://github.com/ry4nyeo/vba/wiki/Usage)
+* [Working Codes](https://github.com/ry4nyeo/vba/wiki)
 
 <h2> To-Dos</h2>
 
