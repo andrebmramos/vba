@@ -12,3 +12,4 @@ See working codes [here](https://github.com/ry4nyeo/vba/wiki).
 - [ ] How to protect designs?
 - [ ] How to distribute via installer?
 - [ ] How to build COM add-ins?
+- [ ] Update comments in codes
