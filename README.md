@@ -1,4 +1,4 @@
-# vba
+# VBA
 Learn Visual Basic Application.
 
 * [Usage Guide](https://github.com/ry4nyeo/vba/wiki/Usage)
