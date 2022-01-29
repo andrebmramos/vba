@@ -2,7 +2,7 @@
 Learn Visual Basic Application.
 
 * [Usage Guide](https://github.com/ry4nyeo/vba/wiki/Usage)
-* [Working Codes](https://github.com/ry4nyeo/vba/wiki)
+* [Functioning Codes](https://github.com/ry4nyeo/vba/wiki)
 
 <h2> To-Do</h2>
 
