@@ -1,8 +1,8 @@
 # VBA
 Learn Visual Basic Application.
 
-* [Usage Guide](https://github.com/ry4nyeo/vba/wiki/Usage)
-* [VBA Procedures](https://github.com/ry4nyeo/vba/wiki)
+* [Usage](https://github.com/ry4nyeo/vba/wiki/Usage)
+* [Tools](https://github.com/ry4nyeo/vba/wiki/Tools)
 
 <h2> To-Do</h2>
 
