@@ -5,6 +5,7 @@ Public Function XLOOKUP(text As Variant, targetList As Range, resultList As Vari
 '   Ref: https://stackoverflow.com/questions/44638867/vba-excel-try-catch
 '   Ref: https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/vartype-function
 '   Ref: https://stackoverflow.com/questions/32008841/best-way-to-return-error-in-udf-vba-function
+'   Version: 20220130
 
     Application.ScreenUpdating = False
     
