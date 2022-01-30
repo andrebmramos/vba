@@ -8,8 +8,8 @@ Public Function XLOOKUP(text As Variant, targetList As Range, resultList As Vari
 '   Ref: https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/on-error-statement
 '   Version: 20220130
 
-    Application.ScreenUpdating = False
     On Error GoTo XLOOKUP_Error
+    Application.ScreenUpdating = False
     
     If TypeName(resultList) = "Range" Then
         XLOOKUP = WorksheetFunction.Index(resultList, WorksheetFunction.Match(text, targetList, 0))
@@ -26,7 +26,6 @@ Public Function XLOOKUP(text As Variant, targetList As Range, resultList As Vari
     
 XLOOKUP_Error:
 
-'   Handles error if not match found
     If IsMissing(errResult) Then
         XLOOKUP = CVErr(xlErrValue)
     Else
