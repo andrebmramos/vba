@@ -5,28 +5,33 @@ Public Function XLOOKUP(text As Variant, targetList As Range, resultList As Vari
 '   Ref: https://stackoverflow.com/questions/44638867/vba-excel-try-catch
 '   Ref: https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/vartype-function
 '   Ref: https://stackoverflow.com/questions/32008841/best-way-to-return-error-in-udf-vba-function
+'   Ref: https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/on-error-statement
 '   Version: 20220130
 
     Application.ScreenUpdating = False
-    
     On Error GoTo XLOOKUP_Error
     
-    If (VarType(resultList) = 8204) Then
-            XLOOKUP = WorksheetFunction.Index(resultList, WorksheetFunction.Match(text, targetList, 0))
+    If TypeName(resultList) = "Range" Then
+        XLOOKUP = WorksheetFunction.Index(resultList, WorksheetFunction.Match(text, targetList, 0))
     Else
-        If (WorksheetFunction.Match(text, targetList, 0)) Then
+        If IsError(WorksheetFunction.Match(text, targetList, 0)) Then
+            GoTo XLOOKUP_Error
+        Else
             XLOOKUP = resultList
-        Else: End If
+        End If
     End If
     
+    Application.ScreenUpdating = True
+    Exit Function
+    
 XLOOKUP_Error:
+
 '   Handles error if not match found
     If IsMissing(errResult) Then
         XLOOKUP = CVErr(xlErrValue)
     Else
         XLOOKUP = errResult
     End If
-    
-    Application.ScreenUpdating = True
+    Resume Next
     
 End Function
