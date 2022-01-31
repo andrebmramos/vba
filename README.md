@@ -19,3 +19,10 @@ Learn Visual Basic Application.
 - [ ] [Stockhistory2](https://www.get-digital-help.com/how-to-use-the-stockhistory-function/)
 - [ ] [Linked Data Types](https://www.youtube.com/watch?v=z-WDstDUzyA&ab_channel=MrExcel.com)
 - [ ] [Office Linked Data Types](https://support.microsoft.com/en-us/office/excel-data-types-stocks-and-geography-61a33056-9935-484f-8ac8-f1a89e210877)
+- [ ] Selenium VBA <sup>[1][S01] [2][S02] [3][S03]</sup>
+
+
+
+[S01]: https://florentbr.github.io/SeleniumBasic/
+[S02]: https://codingislove.com/browser-automation-in-excel-selenium/
+[S03]: https://codingislove.com/scrape-website-using-selenium-vba/
