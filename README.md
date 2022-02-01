@@ -1,5 +1,4 @@
 # VBA
-Learn Visual Basic Application.
 
 * [Tools](https://github.com/ry4nyeo/vba/wiki#tools)
 
