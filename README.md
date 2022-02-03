@@ -1,6 +1,31 @@
-# VBA
+## Tools
+By functions:
 
-* [Tools](https://github.com/ry4nyeo/vba/wiki#tools)
+* [Casing](https://github.com/ry4nyeo/vba/wiki/Casing)
+* [Fonts](https://github.com/ry4nyeo/vba/wiki/Fonts)
+* [Formats](https://github.com/ry4nyeo/vba/wiki/Formats)
+* [Formulas](https://github.com/ry4nyeo/vba/wiki/Formulas)
+* [Inserts](https://github.com/ry4nyeo/vba/wiki/Inserts)
+* [Removes](https://github.com/ry4nyeo/vba/wiki/Removes)
+* [Sorts](https://github.com/ry4nyeo/vba/wiki/Sorts)
+* [Workbook](https://github.com/ry4nyeo/vba/wiki/Workbook)
+* [XFunctions](https://github.com/ry4nyeo/vba/wiki/XFunctions)
+
+## WIP
+
+* [CopyToWorkbook](https://github.com/ry4nyeo/vba/wiki/_CopyToWorkbook)
+* [epace](https://github.com/ry4nyeo/vba/wiki/_epace)
+
+## Usage
+**Method 1**<br>
+* Import the .bas file(s) into Excel Visual Basic Editor as a module.<br>
+* Create a custom ribbon button for sub procedure.
+
+**Method 2**<br>
+* Copy the codes in .bas file(s).<br>
+* Paste the codes into Excel Visual Basic Editor module.<br>
+* Create a custom ribbon button for sub procedure.
+
 
 <h2> To-Do</h2>
 
